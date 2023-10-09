@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Page</title>
+</head>
+<body>
+  <h2>Registration Form</h2>
+  <form action="registration.php" method="POST">
+    <fieldset>
+    <label for="sal">salutation</label><br>
+    <select name="sal" id="sal">
+        <option value="none">--None--</option>
+        <option value="Mr">Mr</option>
+        <option value="Mrs">Mrs</option>
+        <option value="Dr">Dr</option>
+    </select><br>
+    <label for="name">Name:</label>
+    &nbsp;  &nbsp;  &nbsp;
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label>
+    &nbsp;  &nbsp;  &nbsp;
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">Password:</label>
+    &nbsp;  &nbsp;  &nbsp;
+    <input type="password" id="password" name="password" required><br><br>
+    <label for="Address">Address</label><br>
+    <textarea name="Add" id="Sdd" cols="30" rows="10"></textarea><br>
+    <!---->
+
+    <input type="submit" value="Register">
+  </form></fieldset>
+  
+</body>
+</html>
